@@ -13,7 +13,7 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
   * Once the sets the time and click “Set Alarm” button, add that alarm to the alarms list below
   * When the alarm goes of just use JS alert function to alert in the browser
 
-* #### Alarms list ####
+* #### Alarm list ####
   Display a list of all the alarms set by user
 
 * #### Delete alarm ####
