@@ -1,10 +1,10 @@
 # Alarm-Clock using vanila javascript
 Alarm clock application built using javascript, css and html
 
-##Problem Statement
+## Problem Statement
 Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
 
-##Features included
+## Features included
 Clock face
 Clock showing the current time (seconds,mins,hrs should change as time changes)
 
@@ -20,6 +20,6 @@ For each alarm give a delete button to delete the alarm
 When the user deletes an alarm make sure it “does not alerts the user”
 
 
-##Links
-Code link: https://github.com/Meghna24R/Alarm-Clock.git
+## Links
+[Code link](https://github.com/Meghna24R/Alarm-Clock.git)
 Hosted link: https://github.com/Meghna24R/Alarm-Clock.git
