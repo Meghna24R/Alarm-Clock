@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="Alarm Clock" content="Alarm Clock for CN Skill Test" />
+    
+        <title>Alarm Clock</title>
+        <link rel = "stylesheet" href = "alarm.css">
+    </head>
+
+    <body>
+        <div id="page-title">
+            <h1>ALARM CLOCK</h1>
+        </div>
+        <center>
+            <div id="container">
+                <div id="clock">
+                    <div id="curr-time" class="curr-time">_ : _ : _</div>
+                    <form id="alarm-form">
+                        <p id="setPara">Set Alarm</p>
+                        <div>
+                            <select name="hours" id="hours" required></select>
+                            <select name="minutes" id="minutes" required></select>
+                            <select name="seconds" id="seconds" required></select>
+                            <select name="am-pm" id="am-pm">
+                                <option value="AM">AM</option>
+                                <option value="PM">PM</option>
+                            </select>
+                            <br>
+                            <label for msg id="msgLabel">Alarm for</label>
+                            <input name="msg" id="msg">
+                        </div>
+                        <button class="btn set-btn" id="set-btn" type="submit">Set Alarm</button>
+                    </form>
+                    <div id="set-alarm-container">
+                        <div id="alarm-title">ALARMS</div>
+                        <div id="alarm-block"></div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <script src="./alarm.js"></script>
+    </body>
+</html>

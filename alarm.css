@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: cursive;
+    background-color: #390639;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .btn {
+    outline: none;
+    color: #671414;
+    background-color: wheat;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn:hover {
+    color: wheat;
+    background-color: #671414;
+  }  
+  
+  .mb {
+    margin-bottom: 1rem;
+  }
+  
+  /* End GLobal Styles */
+
+  #page-title{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #08f489;
+    
+  }
+  
+  #container {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #clock {
+    padding: 2rem;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  #curr-time {
+    font-size: 7rem;
+    color: #e8ff38;
+    margin: 30px;
+  }
+
+
+  #alarm-form {
+    justify-content: space-between;
+    width: 45%;
+    border-radius: 10px;
+    background-color: #782978;
+    margin: 30px;
+    padding: 20px;
+  }  
+
+  select {
+    appearance: none;
+    background-color: #f3f96c;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 1rem;
+    margin-right: 0.3rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-color: #f3fd00
+  }
+
+  select, #msg {
+    color: #671414;
+  }
+
+  #setPara {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  #msgLabel {
+    font-size: large;
+  }
+
+  #msg {
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 20px;
+    width: 45%;
+    background-color: #f3f96c;
+  }
+    
+  #set-btn {
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  
+
+  #set-alarm-container {
+    background-color: #782978;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  #alarm-title {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .alarm {
+    width: 90%;
+    background-color: #bb70bb;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+  }
+
+  .time {
+    color: #0E141B;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .dlt-alarm {
+    border-radius: 10px;
+  }
