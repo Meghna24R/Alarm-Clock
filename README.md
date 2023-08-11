@@ -22,4 +22,4 @@ When the user deletes an alarm make sure it “does not alerts the user”
 
 ## Links
 [Code link](https://github.com/Meghna24R/Alarm-Clock.git)
-Hosted link: https://github.com/Meghna24R/Alarm-Clock.git
+[Hosted link](https://github.com/Meghna24R/Alarm-Clock.git)
