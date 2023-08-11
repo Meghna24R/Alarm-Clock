@@ -23,4 +23,4 @@ Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks a
 
 ## Links
 1. [Code link](https://github.com/Meghna24R/Alarm-Clock.git)
-2. [Hosted link](https://github.com/Meghna24R/Alarm-Clock.git)
+2. [Hosted link](https://meghna24r.github.io/Alarm-Clock/)
