@@ -1,4 +1,6 @@
-* {
+* 
+/*GLobal styling*/
+{
     margin: 0;
     box-sizing: border-box;
   }
@@ -6,10 +8,6 @@
   body {
     font-family: cursive;
     background-color: #390639;
-  }
-  
-  .d-flex {
-    display: flex;
   }
   
   .btn {
@@ -27,21 +25,16 @@
     color: wheat;
     background-color: #671414;
   }  
-  
-  .mb {
-    margin-bottom: 1rem;
-  }
-  
-  /* End GLobal Styles */
 
+/*styling page title*/
   #page-title{
     align-items: center;
     text-align: center;
     font-size: 2rem;
-    color: #08f489;
-    
+    color: #08f489;  
   }
-  
+
+/*Styling the alarm container containg current time and form to set the time*/
   #container {
     min-height: 100vh;
     align-items: center;
@@ -62,7 +55,6 @@
     color: #e8ff38;
     margin: 30px;
   }
-
 
   #alarm-form {
     justify-content: space-between;
@@ -115,7 +107,7 @@
     margin-top: 15px;
   }
   
-
+/*Styling set alarm container which displays the alarm time already set*/
   #set-alarm-container {
     background-color: #782978;
     width: 50%;
